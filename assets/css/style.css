@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #926239;
+
+}
+.header {
+  height: 100vh;
+  background-color: aqua;
+  background-image: url("./../img/beachshowcase.jpg");
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+ 
+}
+.section1 {
+  font-size: 20px;
+  line-height: 1,5 em;
+  padding: 30px;
+  color: white;
+  background-color: #926239;
+  margin: 0px;
+
+
+}
