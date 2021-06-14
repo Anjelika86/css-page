@@ -1,27 +1,63 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   color: #926239;
-
 }
 .header {
-  height: 100vh;
   background-color: aqua;
   background-image: url("./../img/beachshowcase.jpg");
+  background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
   background-position: center;
- 
+  height: 100vh;
 }
+ h1 {
+  padding-top: 40vh;
+   font-size: 50px;
+   line-height: 1.2; 
+  }
+  .p-header {
+    padding: 20px 20px;
+    font-size: 20px;
+  }
+  .a {
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #926239;
+    border-radius: 10%;
+    margin-top: 20px;
+  }
 .section1 {
-  font-size: 20px;
-  line-height: 1,5 em;
+  line-height: 1.6;
+  font-size: 17px;
   padding: 30px;
   color: white;
   background-color: #926239;
   margin: 0px;
-
-
 }
+.section2 { 
+  line-height: 1.6;
+  font-size: 17px;
+  padding: 30px;
+  margin: 0px;
+}
+.p {
+  line-height: 1.6;
+  font-size: 17px;
+  padding: 30px;
+  display: inline-block;
+  width: 33%
+} 
+.p-color {
+  background-color: #926239;
+  color: white;
+}
+
+
